@@ -55,6 +55,7 @@ h1{
 footer{
     position: sticky;
     bottom: 0;
+    color: black;
 }
 
 @media screen and (max-width:420px) {
@@ -77,10 +78,11 @@ footer{
     h1{
         font-size: larger;
     }
-    
+
     footer{
         position: sticky;
         bottom: 0;
+        color: black;
     }
     
 }
