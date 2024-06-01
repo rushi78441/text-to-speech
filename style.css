@@ -52,6 +52,11 @@ h1{
     transition-duration: 0.4s;
 }
 
+footer{
+    position: sticky;
+    bottom: 0;
+}
+
 @media screen and (max-width:420px) {
     .container input{
         width: 200px;
@@ -71,6 +76,11 @@ h1{
 
     h1{
         font-size: larger;
+    }
+    
+    footer{
+        position: sticky;
+        bottom: 0;
     }
     
 }
